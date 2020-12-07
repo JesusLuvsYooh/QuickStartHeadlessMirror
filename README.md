@@ -1,5 +1,5 @@
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](hitman_stephen@hotmail.com)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9PUGQGE4XDE4C&currency_code=GBP)
 
 
 # QuickStart V6 - Headless - Mirror
