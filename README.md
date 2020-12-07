@@ -22,11 +22,11 @@ Example of client arguements"
 C:\Users\location\QuickStartHeadless c 30 123.123.123.123 0 0 3
 
 # Traffic explanation
-- 0 = none
-- 1 = light (card game)  (some cmd/rpcs)
-- 2 = active (social game)  (a few cmd/rpcs + player movement) 
-- 3 = heavy (mmo)  (many cmd/rpcs + player movement) 
-- 4 = frequent (fps)  (lots of cmd/rpcs + player movement) 
+- 0 = none  (just initial player setup such as name and colour)
+- 1 = light  (card game) (traffic: 0 + some cmd/rpcs every few seconds)
+- 2 = active  (social game) (traffic: 1 increased + player rotation only + rigidbody sphere projectile)
+- 3 = heavy  (mmo) (traffic: 2 increased + player movement)
+- 4 = frequent (fps) (traffic: 3 increased)
 
 # Other
 Port argument section for headless has been temporary disabled, whilst doing the many transport tests.
