@@ -38,12 +38,27 @@ Directly change port to 7777 on NetworkManagers Transport.
 2: Import Mirror from Asset Store or Github Releases<br/>
 
 3a: Check the Player Prefab has NetworkTransform on it<br/>
-![Build Settings](https://user-images.githubusercontent.com/57072365/101388283-a1d20b80-38b7-11eb-9adf-28a24ad1a63a.jpg)
+![NetworkTransform](https://user-images.githubusercontent.com/57072365/101388283-a1d20b80-38b7-11eb-9adf-28a24ad1a63a.jpg)
 
 3b: Check MyScene NetworkManager has a Transport, you can use any (Telepathy, LiteNet, Asio, Ignorance etc)<br/>
-![Build Settings](https://user-images.githubusercontent.com/57072365/101388278-a0084800-38b7-11eb-8462-bcb47933e91a.jpg)
+![NetworkManager](https://user-images.githubusercontent.com/57072365/101388278-a0084800-38b7-11eb-8462-bcb47933e91a.jpg)
 
 3c: Check the Build Settings has the 2 main scenes, make sure GamesList is set as the first scene.<br/>
-Also check that these are set in NetworkManager (GamesList - offline map and MyScene - online map)
+Also check that these are set in NetworkManager (GamesList - offline map and MyScene - online map)<br/>
+- Optional, tick Server Build if you want headless versions, non-heaadless also works.<br/>
 ![Build Settings](https://user-images.githubusercontent.com/57072365/101388267-9da5ee00-38b7-11eb-9193-f4b5cea34c0d.jpg)
 
+4: After you have build the headless from Unity, open up Cmd, and enter the server arguements (check top of ReadMe)<br/>
+![Server](https://user-images.githubusercontent.com/57072365/101390515-dabfaf80-38ba-11eb-924c-d8237ca96850.jpg)
+
+5: Do the same, but enter client arguements, open as many of these as you want. (check top of ReadMe)<br/>
+![Client](https://user-images.githubusercontent.com/57072365/101390526-ddbaa000-38ba-11eb-9674-af4c37d92417.jpg)
+
+6: In Unity Editor, in the GamesList scene, enter your VPS IP Address (or localhost if you are doing everything on same PC)<br/>
+![Editor](https://user-images.githubusercontent.com/57072365/101390528-e01cfa00-38ba-11eb-8562-ff90f7be64ef.jpg)
+
+7: Here you can play, and see the other clients moving around.<br/>
+Press the Players Canvas button to tally up gameobject players, if you are using a Proximity checker, this will only show those near you.
+![Editor](https://user-images.githubusercontent.com/57072365/101390533-e27f5400-38ba-11eb-84c5-6eb3bfbbe302.jpg)
+
+8: Enjoy!  ^_^
