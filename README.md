@@ -34,11 +34,16 @@ Directly change port to 7777 on NetworkManagers Transport.
 
 # Walkthrough Guide
 1: Download the QuickStart project, open with Unity (made with 2019)
-2: Import Mirror from Asset Store or Github Releases
-3a: Check the Player Prefab has NetworkTransform on it
+
+2: Import Mirror from Asset Store or Github Releases<br/>
+
+3a: Check the Player Prefab has NetworkTransform on it<br/>
 ![Build Settings](https://user-images.githubusercontent.com/57072365/101388283-a1d20b80-38b7-11eb-9adf-28a24ad1a63a.jpg)
-3b: Check MyScene NetworkManager has a Transport, you can use any (Telepathy, LiteNet, Asio, Ignorance etc)
+
+3b: Check MyScene NetworkManager has a Transport, you can use any (Telepathy, LiteNet, Asio, Ignorance etc)<br/>
 ![Build Settings](https://user-images.githubusercontent.com/57072365/101388278-a0084800-38b7-11eb-8462-bcb47933e91a.jpg)
-3c: Check the Build Settings has the 2 main scenes, make sure GamesList is set as the first scene.
+
+3c: Check the Build Settings has the 2 main scenes, make sure GamesList is set as the first scene.<br/>
 Also check that these are set in NetworkManager (GamesList - offline map and MyScene - online map)
 ![Build Settings](https://user-images.githubusercontent.com/57072365/101388267-9da5ee00-38b7-11eb-9193-f4b5cea34c0d.jpg)
+
