@@ -1,3 +1,7 @@
+<center>
+ [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](9PUGQGE4XDE4C)
+</center>
+
 # QuickStart V6 - Headless - Mirror
  The public quickstart guide, modified to be headless server and client.
  
