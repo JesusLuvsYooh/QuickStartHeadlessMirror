@@ -45,7 +45,7 @@ Directly change port to 7777 on NetworkManagers Transport.
 
 3c: Check the Build Settings has the 2 main scenes, make sure GamesList is set as the first scene.<br/>
 Also check that these are set in NetworkManager (GamesList - offline map and MyScene - online map)<br/>
-- Optional, tick Server Build if you want headless versions, non-heaadless also works.<br/>
+(Optional, tick Server Build if you want headless versions, non-heaadless also works.)<br/>
 ![Build Settings](https://user-images.githubusercontent.com/57072365/101388267-9da5ee00-38b7-11eb-9193-f4b5cea34c0d.jpg)
 
 4: After you have build the headless from Unity, open up Cmd, and enter the server arguements (check top of ReadMe)<br/>
