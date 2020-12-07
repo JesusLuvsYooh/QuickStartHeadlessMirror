@@ -58,7 +58,6 @@ namespace QuickStart
                 staticC.traffic += 1; if (staticC.traffic > 4) { staticC.traffic = 0; }
                 playerScript.SetupAutoTraffic();
                 canvasAutoTraffic.text = "Traffic: " + playerScript.trafficType;
-                NetworkServer.maxConnections = 0;
             }
         }
         
