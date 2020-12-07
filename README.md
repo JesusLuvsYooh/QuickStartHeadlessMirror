@@ -1,4 +1,4 @@
-
+[![Website Stephen Allen Games](http://www.stephenallengames.co.uk/images/logo.gif)](http://www.stephenallengames.co.uk)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9PUGQGE4XDE4C&currency_code=GBP)
 
 
