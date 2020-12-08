@@ -25,7 +25,7 @@ Example of server arguements:
 C:\Users\location\QuickStartHeadless s 30 0 0 0
 
 Example of client arguements"
-C:\Users\location\QuickStartHeadless c 30 123.123.123.123 0 0 3
+C:\Users\location\QuickStartHeadless c 30 123.0.0.123 0 3
 
 # Traffic explanation
 - 0 = none  (just initial player setup such as name and colour)
