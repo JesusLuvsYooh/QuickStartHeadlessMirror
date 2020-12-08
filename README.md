@@ -51,14 +51,16 @@ Directly change port to 7777 on NetworkManagers Transport.
 
 3c: Check the Build Settings has the 2 main scenes, make sure GamesList is set as the first scene.<br/>
 Also check that these are set in NetworkManager (GamesList - offline map and MyScene - online map)<br/>
-(Optional, tick Server Build if you want headless versions, non-heaadless also works.)<br/>
+(Optional, tick Server Build if you want headless versions, non-headless also works.)<br/>
 ![Build Settings](https://user-images.githubusercontent.com/57072365/101388267-9da5ee00-38b7-11eb-9193-f4b5cea34c0d.jpg)
 
-4: After you have build the headless from Unity, open up Cmd, and enter the server arguements (check top of ReadMe)<br/>
-![Server](https://user-images.githubusercontent.com/57072365/101390515-dabfaf80-38ba-11eb-924c-d8237ca96850.jpg)
+4: After you have build the headless from Unity, open up Cmd, and enter the server arguements</br>
+(check top of the ReadMe for arguments, server does not need to enter IP address or traffic)<br/>
+![Server](https://user-images.githubusercontent.com/57072365/101470485-f750fb80-393d-11eb-8b9e-37618be171a5.jpg)
 
-5: Do the same, but enter client arguements, open as many of these as you want. (check top of ReadMe)<br/>
-![Client](https://user-images.githubusercontent.com/57072365/101390526-ddbaa000-38ba-11eb-9674-af4c37d92417.jpg)
+5: Do the same, but enter client arguements, open as many of these as you want.<br/>
+(check top of the ReadMe for arguments, client can enter 0 as ip for localhost)<br/>
+![Client](https://user-images.githubusercontent.com/57072365/101470482-f6b86500-393d-11eb-866b-258b49f6e08a.jpg)
 
 6: In Unity Editor, in the GamesList scene, enter your VPS IP Address (or localhost if you are doing everything on same PC)<br/>
 ![Editor](https://user-images.githubusercontent.com/57072365/101390528-e01cfa00-38ba-11eb-8562-ff90f7be64ef.jpg)
