@@ -37,6 +37,10 @@ public class CustomNetworkManager : NetworkManager
         
         if (args == null || args.Length <= 0)
         {
+            Debug.Log("Missing Argsss!");
+        }
+        else
+        {
             if (args.Length >= 3 && args[2] != "0")
             {
                 serverTickRate = int.Parse(args[2]);
