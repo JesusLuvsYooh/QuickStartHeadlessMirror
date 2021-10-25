@@ -35,9 +35,10 @@ public class CustomNetworkManager : NetworkManager
         
         string[] args = Environment.GetCommandLineArgs();
         
-        if (args == null || args.Length <= 0)
+        if (args != null && args.Length > 0)
         {
             Debug.Log("Missing Argsss!");
+            StartServer();
         }
         else
         {
@@ -64,7 +65,7 @@ public class CustomNetworkManager : NetworkManager
                 staticC.traffic = int.Parse(args[5]);
             }
 
-            yield return new WaitForSeconds(2.0f);
+            yield return new WaitForSeconds(1.0f);
 
             if (args[1] == "s")
             {
@@ -73,6 +74,7 @@ public class CustomNetworkManager : NetworkManager
             else if (args[1] == "c")
             {
                 if (args.Length >= 3 && args[2] == "0") { Application.targetFrameRate = 30; }
+                yield return new WaitForSeconds(UnityEngine.Random.Range(0.0f, 2.0f));
                 StartClient();
             }
         }
