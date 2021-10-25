@@ -35,9 +35,9 @@ public class CustomNetworkManager : NetworkManager
         
         string[] args = Environment.GetCommandLineArgs();
         
-        if (args != null && args.Length > 0)
+        if (args == null || (args != null && args.Length <= 1))
         {
-            Debug.Log("Missing Argsss!");
+            Debug.Log("Missing Argsss! - Starting a default server setup.");
             StartServer();
         }
         else
