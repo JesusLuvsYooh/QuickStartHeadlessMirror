@@ -12,7 +12,7 @@
  But it serves its purpose of being a template with basic mirror multiplayer features.  :)
 
  Original Guide located here:
- https://mirror-networking.com/docs/Articles/CommunityGuides/MirrorQuickStartGuide/index.html
+ https://mirror-networking.gitbook.io/docs/community-guides/quick-start-guide
  
 
 # Running headless server or client
